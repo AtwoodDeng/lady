@@ -1,0 +1,11 @@
+/* This file (Dandelion.sublime-project) is auto-generated. Modifications are not saved. */
+
+{
+  "folders":
+  [ { "folder_exclude_patterns": [ "Lady/Library" ]
+    , "file_exclude_patterns": [ "*.meta", "*.prefab" , "*.psd" , "*.png" ]
+    , "path": "."
+    }
+  ]
+  , "solution_file": "Lady.sln"
+}
