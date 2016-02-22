@@ -182,6 +182,8 @@ public class ParticlesArea : MonoBehaviour {
 		return m_nHeight;
 	}
 
+	public 
+
 	void Update()
 	{
         if (m_particlesBuffer == null)
@@ -293,4 +295,5 @@ public class ParticlesArea : MonoBehaviour {
 			Gizmos.DrawWireCube(GetComponent<Renderer>().bounds.center, GetComponent<Renderer>().bounds.extents * 2f);
 		}
 	}
+
 }
