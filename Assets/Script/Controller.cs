@@ -39,8 +39,11 @@ public class Controller : MonoBehaviour {
 		if (draw != null )
 			draw.enabled = false;
 		sprite = GetComponent<SpriteRenderer>();
-		if (sprite != null)
-			sprite.color = oriColor;
+		if (sprite != null) {
+			Color col = oriColor;
+			col.a = sprite.color.a;
+			sprite.color = col;
+		}
 
 		oriPos = transform.position;
 		oriScale = transform.localScale;
