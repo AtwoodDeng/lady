@@ -8,6 +8,8 @@ public class DrawMeterial : MonoBehaviour {
 	[SerializeField] Texture2D newTex;
 	[SerializeField] Texture2D cameraTex;
 	[SerializeField] Vector2 initPos;
+	[SerializeField] Camera imageCamera;
+	[SerializeField] Camera smokeCamera;
 	Color[] baseColor;
 	Color[] colors;
 
@@ -15,11 +17,18 @@ public class DrawMeterial : MonoBehaviour {
 	[SerializeField] AnimationCurve alphaChangeCurve;
 	[SerializeField] float alphaChangeRate = 0.02f;
 
+	[SerializeField] float checkAlphaThredshod = 0.5f;
+	[SerializeField] float checkDrawColorThredshod = 0.8f;
+	[SerializeField] float checkDrawNumberThredshod = 0.7f;
+
+	[SerializeField] int updateIndex = 0;
+
 	Vector3 focusScreenPos;
 	// Use this for initialization
 	void Awake () {
+		Debug.Log(baseTex.width+ " " + baseTex.height);
 		newTex = new Texture2D (baseTex.width, baseTex.height, TextureFormat.ARGB32, false);
-		newTex.name = "MyNewTex";
+		newTex.name = gameObject.name;
 		baseColor = baseTex.GetPixels();
 		colors = new Color[baseTex.width * baseTex.height];
 		for(int i = 0 ; i < newTex.width; ++ i )
@@ -27,7 +36,6 @@ public class DrawMeterial : MonoBehaviour {
 		{
 			colors[i*baseTex.height+j] = baseColor[i*baseTex.height+j];
 			colors[i*baseTex.height+j].a = 0.005f;
-
 		}
 		newTex.SetPixels (colors);
 		newTex.Apply();
@@ -35,16 +43,20 @@ public class DrawMeterial : MonoBehaviour {
 		render.sprite = Sprite.Create(newTex, new Rect(initPos,size) , new Vector2(0.5f, 0.5f));
 
 		//set up screen size
-		Camera.main.orthographicSize =  (float)Screen.height / 100f / 2f;
+		imageCamera.orthographicSize =  (float)Screen.height / 100f / 2f;
+		smokeCamera.orthographicSize = (float)Screen.height / 100f / 2f;
 		cameraTex = new Texture2D (pixelCheckRange * 2 +1 , pixelCheckRange * 2 +1 );
 		StartCoroutine (captureImage ());
 	}
 
+	int timer = 0;
 	// Update is called once per frame
 	void Update () {
+		timer ++;
+		// if ( timer % 5 != updateIndex )
+		// 	return;
 		focusScreenPos = Input.mousePosition;
 		showImage ( (int)focusScreenPos.x , (int) focusScreenPos.y );
-		Color[] newColor = cameraTex.GetPixels ();
 		newTex.SetPixels (colors);
 		newTex.Apply ();
 
@@ -58,17 +70,21 @@ public class DrawMeterial : MonoBehaviour {
 			
 			yield return new WaitForEndOfFrame();
 			yield return new WaitForEndOfFrame();
-			
-			RenderTexture target = Camera.main.targetTexture;
-			
-			if( target == null )
-				yield return null;
 			yield return new WaitForEndOfFrame();
+			yield return new WaitForEndOfFrame();
+			
+			RenderTexture target = smokeCamera.targetTexture;
+			
+			// if( target == null )
+			// 	yield return null;
+			// yield return new WaitForEndOfFrame();
 			
 			cameraTex.ReadPixels (new Rect ((int)focusScreenPos.x - pixelCheckRange
 			                                ,(int)focusScreenPos.y - pixelCheckRange
 			                                , (int)focusScreenPos.x + pixelCheckRange
 			                                , (int)focusScreenPos.x + pixelCheckRange), 0, 0);
+			
+
 			cameraTex.Apply ();
 		}
 	}
@@ -101,8 +117,14 @@ public class DrawMeterial : MonoBehaviour {
 	void showImage( int posX , int posY  )
 	{
 		Vector3 screenPos = Camera.main.WorldToScreenPoint(render.gameObject.transform.position);
-		int Y = ((int)posX - (int)screenPos.x) + newTex.width / 2;
-		int X = ((int)posY - (int)screenPos.y) + newTex.height / 2;
+		Vector3 myPos = new Vector3(posX,posY,0) - screenPos;
+		myPos.z = 0;
+		float angle = Vector3.Angle(Vector3.left, myPos);
+		angle -= transform.eulerAngles.z;
+		myPos = new Vector3(Mathf.Cos(angle),Mathf.Sin(angle)) * myPos.magnitude * transform.localScale.x;
+
+		int Y = ((int)myPos.x) + newTex.width / 2;
+		int X = ((int)myPos.y) + newTex.height / 2;
 		Color[] camCol = cameraTex.GetPixels ();
 		for ( int xx = X - pixelCheckRange; xx < X + pixelCheckRange; xx++ )
 			for (int yy = Y - pixelCheckRange; yy < Y + pixelCheckRange; yy++ ) {
@@ -147,4 +169,48 @@ public class DrawMeterial : MonoBehaviour {
 		colors [X * newTex.width + Y] = col;
 
 	}
+
+
+
+	public void Reset()
+	{
+		for(int i = 0 ; i < newTex.width; ++ i )
+			for ( int j = 0 ; j < newTex.height; ++ j )
+		{
+			colors[i*baseTex.height+j] = baseColor[i*baseTex.height+j];
+			colors[i*baseTex.height+j].a = 0.005f;
+		}
+
+	}
+
+	public bool checkDraw()
+	{
+		int all = 0;
+		int count = 0;
+		for(int i = 0 ; i < newTex.width; ++ i )
+			for ( int j = 0 ; j < newTex.height; ++ j )
+		{
+			Color bc = baseColor[i*baseTex.height+j];
+			Color mc = colors[i*baseTex.height+j];
+
+			if (bc.a > checkAlphaThredshod )
+			{
+				all = all +1;
+				if ( ( mc.a / bc.a ) > checkDrawColorThredshod )
+				{
+					count = count + 1;
+				}
+			}
+		}
+		Debug.Log("Check draw " + count + " " + all );
+
+		if ( (float)count / (float)all > checkDrawNumberThredshod)
+		{
+			return true;
+		}
+
+
+		return false;
+
+	}	
 }

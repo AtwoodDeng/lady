@@ -1,0 +1,1770 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rend",
+				"Render()	void"
+			],
+			[
+				"foo",
+				"footageFloder"
+			],
+			[
+				"num",
+				"numbers"
+			],
+			[
+				"sw",
+				"Swap"
+			],
+			[
+				"State",
+				"PetalState	PetalState"
+			],
+			[
+				"Pe",
+				"Petal3D	Petal3D"
+			],
+			[
+				"flaw",
+				"FlyAway	PetalState"
+			],
+			[
+				"state",
+				"state	PetalState"
+			],
+			[
+				"winds",
+				"WindSense	float"
+			],
+			[
+				"growpe",
+				"GrowPatel()	void"
+			],
+			[
+				"Rayc",
+				"RaycastAll(Vector2 origin, Vector2 direction, float distance, int layerMask)	RaycastHit2D[]"
+			],
+			[
+				"con",
+				"contacts	ContactPoint2D[] { get; }"
+			],
+			[
+				"Raycast",
+				"Raycast(Vector2 origin, Vector2 direction)	RaycastHit2D"
+			],
+			[
+				"Ray",
+				"Raycast(Ray ray, out RaycastHit hitInfo, float maxDistance, int layerMask)	bool"
+			],
+			[
+				"Raych",
+				"Raycast(Ray ray, out RaycastHit hitInfo)	bool"
+			],
+			[
+				"elu",
+				"Euler(Vector3 euler)	Quaternion"
+			],
+			[
+				"rotation",
+				"localRotation	Quaternion { get; set; }"
+			],
+			[
+				"dir",
+				"direction	Vector2"
+			],
+			[
+				"rotat",
+				"Rotate(Vector3 axis, float angle)	void"
+			],
+			[
+				"Vec",
+				"Vector3"
+			],
+			[
+				"v",
+				"V2ToV3(Vector2 v)	Vector3"
+			],
+			[
+				"stem",
+				"stemWindSwind	float"
+			],
+			[
+				"MA",
+				"Mathf	Mathf"
+			],
+			[
+				"angl",
+				"Angle	float"
+			],
+			[
+				"ele",
+				"eulerAngles	Vector3 { get; set; }"
+			],
+			[
+				"start",
+				"StartCoroutine(IEnumerator routine)	Coroutine"
+			],
+			[
+				"invol",
+				"intenseOffVol"
+			],
+			[
+				"inten",
+				"IntenseBoundary	float"
+			],
+			[
+				"gro",
+				"grow3DPara"
+			],
+			[
+				"sca",
+				"scaleY"
+			],
+			[
+				"move",
+				"DOLocalMoveY(float endValue, float duration, bool snapping = false)	Tweener"
+			],
+			[
+				"lo",
+				"lossyScale	Vector3 { get; }"
+			],
+			[
+				"gr",
+				"grow3DPara"
+			],
+			[
+				"do",
+				"DOMoveY(float endValue, float duration, bool snapping = false)	Tweener"
+			],
+			[
+				"Ran",
+				"Range"
+			],
+			[
+				"grow",
+				"growParameter"
+			],
+			[
+				"doscal",
+				"DOScaleY(float endValue, float duration)	Tweener"
+			],
+			[
+				"Rota",
+				"SetEulerRotation(Vector3 euler)	void"
+			],
+			[
+				"setre",
+				"SetRelative<T>()	T"
+			],
+			[
+				"Camera",
+				"CameraManager	(CameraManager.cs)"
+			],
+			[
+				"petal",
+				"petalRoot"
+			],
+			[
+				"sc",
+				"ScaleChange	float"
+			],
+			[
+				"flo",
+				"flowerGrowInfoList"
+			],
+			[
+				"Flo",
+				"FlowerGrowInfo"
+			],
+			[
+				"Check",
+				"checkCanGrowFlower()	bool"
+			],
+			[
+				"Add",
+				"Add(T item)	void"
+			],
+			[
+				"Flower",
+				"FlowerGrowInfo	FlowerGrowInfo"
+			],
+			[
+				"get",
+				"GetMessage(string key)	object"
+			],
+			[
+				"nor",
+				"normalized	Vector2 { get; }"
+			],
+			[
+				"Blow",
+				"Blow(Vector2 move, float vel, BlowType blowType = BlowType.Normal)	void"
+			],
+			[
+				"chanc",
+				"flyAwayChance	float"
+			],
+			[
+				"fl",
+				"FlyAway	PetalState"
+			],
+			[
+				"Blo",
+				"BlowType"
+			],
+			[
+				"se",
+				"SelfDestory()	void"
+			],
+			[
+				"els",
+				"eulerAngles	Vector3 { get; set; }"
+			],
+			[
+				"grpa",
+				"growParameter"
+			],
+			[
+				"wa",
+				"WaitForSeconds	WaitForSeconds"
+			],
+			[
+				"log",
+				"Log(object message)	void"
+			],
+			[
+				"dor",
+				"DORotate(Vector3 endValue, float duration, RotateMode mode = RotateMode.Fast)	Tweener"
+			],
+			[
+				"Gro",
+				"GrowParameter"
+			],
+			[
+				"dos",
+				"DOScale(float endValue, float duration)	Tweener"
+			],
+			[
+				"los",
+				"localScale	Vector3 { get; set; }"
+			],
+			[
+				"rigbo",
+				"rigidbody"
+			],
+			[
+				"R2d",
+				"Rigidbody2D"
+			],
+			[
+				"Rigi",
+				"Rigidbody2D	Rigidbody2D"
+			],
+			[
+				"GetCompo",
+				"GetComponents<T>()	T[]"
+			],
+			[
+				"Collider",
+				"Collider2D"
+			],
+			[
+				"Collid",
+				"Collider2D	(Petal.cs)"
+			],
+			[
+				"Pi",
+				"PI	float"
+			],
+			[
+				"petmlinkin",
+				"petalModelLinkInit"
+			],
+			[
+				"intense",
+				"petalModelRotateIntense	float"
+			],
+			[
+				"rand",
+				"GetRandomDirectionV3()	Vector3"
+			],
+			[
+				"petals",
+				"petals"
+			],
+			[
+				"cha",
+				"chaosFunction"
+			],
+			[
+				"stop",
+				"StopCoroutine(string methodName)	void"
+			],
+			[
+				"over",
+				"override"
+			],
+			[
+				"ov",
+				"override"
+			],
+			[
+				"IE",
+				"IEnumerator"
+			],
+			[
+				"o",
+				"override"
+			],
+			[
+				"slee",
+				"selection"
+			],
+			[
+				"a",
+				"Alpha3	KeyCode"
+			],
+			[
+				"Addsp",
+				"AddSwipeTime	(EventDefine.cs)"
+			],
+			[
+				"al",
+				"Alpha2	KeyCode"
+			],
+			[
+				"switim",
+				"swipeTime	int"
+			],
+			[
+				"ins",
+				"Instance	EventManager { get; }"
+			],
+			[
+				"Re",
+				"RegistersEvent	(EventManager.cs)"
+			],
+			[
+				"clas",
+				"ClossAllLevel()	void"
+			],
+			[
+				"lis",
+				"List<	List<"
+			],
+			[
+				"Get",
+				"GetFinal	(EventDefine.cs)"
+			],
+			[
+				"Ins",
+				"Instance	(EventManager.cs)"
+			],
+			[
+				"y",
+				"y	float"
+			],
+			[
+				"Colliso",
+				"Collision2D"
+			],
+			[
+				"Maf",
+				"Mathf"
+			],
+			[
+				"ma",
+				"magnitude	float { get; }"
+			],
+			[
+				"Iem",
+				"IEnumerator	IEnumerator"
+			],
+			[
+				"e",
+				"Evaluate(float time)	float"
+			],
+			[
+				"anic",
+				"AnimationCurve	AnimationCurve"
+			],
+			[
+				"V3",
+				"Vector3"
+			],
+			[
+				"rot",
+				"Rotate(Vector3 eulerAngles)	void"
+			],
+			[
+				"Toe",
+				"ToEuler()	Vector3"
+			],
+			[
+				"Remov",
+				"RemoveConnectBody()	void"
+			],
+			[
+				"addfor",
+				"AddForce(Vector2 force, ForceMode2D mode)	void"
+			],
+			[
+				"Rgi",
+				"Rigidbody2D"
+			],
+			[
+				"po",
+				"position	Vector3 { get; set; }"
+			],
+			[
+				"addforce",
+				"AddForceAtPosition(Vector2 force, Vector2 position)	void"
+			],
+			[
+				"Rig",
+				"Rigidbody2D"
+			],
+			[
+				"addfore",
+				"AddForceAtPosition(Vector2 force, Vector2 position)	void"
+			],
+			[
+				"V2",
+				"Vector2"
+			],
+			[
+				"Ve",
+				"Vector3"
+			],
+			[
+				"shw",
+				"switchTime"
+			],
+			[
+				"tempin",
+				"tempIntenseChangeRate"
+			],
+			[
+				"time",
+				"Time	Time"
+			],
+			[
+				"Iet",
+				"IEnumerator	IEnumerator"
+			],
+			[
+				"inte",
+				"intenseChangeRate"
+			],
+			[
+				"clam",
+				"Clamp(float value, float min, float max)	float"
+			],
+			[
+				"sta",
+				"static	(GestureManager.cs)"
+			],
+			[
+				"game",
+				"gameObject	GameObject { get; }"
+			],
+			[
+				"coll",
+				"Collider2D	Collider2D"
+			],
+			[
+				"rig",
+				"rigid"
+			],
+			[
+				"Ri",
+				"Rigidbody2D	(Flower.cs)"
+			],
+			[
+				"Coll",
+				"Collider	Collider"
+			],
+			[
+				"Dis",
+				"DistanceJoint2D"
+			],
+			[
+				"Getcom",
+				"GetComponent<T>()	T"
+			],
+			[
+				"Join",
+				"Joint2D	Joint2D"
+			],
+			[
+				"pi",
+				"PI	float"
+			],
+			[
+				"inout",
+				"InOutCubic	Ease"
+			],
+			[
+				"setloo",
+				"SetLoops<T>(int loops, LoopType loopType)	T"
+			],
+			[
+				"el",
+				"EulerAngles(Vector3 euler)	Quaternion"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Assets/Script/DrawMeterial.cs",
+			"settings":
+			{
+				"buffer_size": 5419,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"relo",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"",
+				"Project: Refresh Folders"
+			],
+			[
+				"reloa",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"rel",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"reloo",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"reso",
+				"OmniSharpSublime: Reload Solution"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"proj",
+				"Project: Save As"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"build",
+				"Build: basic"
+			],
+			[
+				"buil",
+				"Build: Build"
+			],
+			[
+				"basi",
+				"Build: basic"
+			],
+			[
+				"por",
+				"Project: Refresh Folders"
+			],
+			[
+				"pro",
+				"Project: Save As"
+			],
+			[
+				"add f",
+				"Project: Add Folder"
+			],
+			[
+				"save as",
+				"Project: Save As"
+			],
+			[
+				"save a",
+				"File: Save All"
+			],
+			[
+				"ja",
+				"Set Syntax: Java"
+			],
+			[
+				"c",
+				"Set Syntax: C"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"ter",
+				"Open in terminal"
+			],
+			[
+				"term",
+				"Open in terminal"
+			],
+			[
+				"pac",
+				"Package Control: List Packages"
+			],
+			[
+				"pacin",
+				"Package Control: Install Package"
+			],
+			[
+				"pain",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Disable Package"
+			],
+			[
+				"set py",
+				"Set Syntax: Python"
+			],
+			[
+				"setr",
+				"Set Syntax: R"
+			],
+			[
+				"set tex",
+				"Set Syntax: TeX"
+			],
+			[
+				"set t",
+				"Set Syntax: Tcl"
+			],
+			[
+				"setp",
+				"Set Syntax: Python"
+			],
+			[
+				"set c",
+				"Set Syntax: C++"
+			],
+			[
+				"set ja",
+				"Set Syntax: Java"
+			],
+			[
+				"paccon",
+				"Package Control: Disable Package"
+			],
+			[
+				"setc+",
+				"Set Syntax: C++"
+			],
+			[
+				"setj",
+				"Set Syntax: Java"
+			],
+			[
+				"cloa",
+				"File: Close All"
+			],
+			[
+				"cloal",
+				"File: Close All"
+			],
+			[
+				"clos",
+				"File: Close All"
+			],
+			[
+				"previ",
+				"Bookmarks: Select Previous"
+			],
+			[
+				"previou",
+				"Bookmarks: Select Previous"
+			],
+			[
+				"def",
+				"Preferences: Settings - Default"
+			],
+			[
+				"use",
+				"Preferences: Settings - User"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"soda",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"shell",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"conpa",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 300.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os;",
+			"ls",
+			"cd ..",
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/atwood/Downloads/granular computing/翻译.txt",
+		"/Users/atwood/tem/700/html5/700html/page/main_new.html",
+		"/Users/atwood/tem/700/html5/700html/page/main.html",
+		"/Users/atwood/Documents/course/IMD/internship/interview..",
+		"/Users/atwood/Documents/course/IMD/y2016spring/writting/w6",
+		"/Users/atwood/tem/Xcode/Monster/CMakeLists.txt",
+		"/Users/atwood/Documents/course/IMD/y2016spring/audio/w6",
+		"/Users/atwood/.bash_profile",
+		"/Users/atwood/tem/Challenge1/Challenge.cpp",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/Object/Petal.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/Object/PetalAdv.cs",
+		"/Users/atwood/tem/unitys/Dandelion/.gitignore",
+		"/Users/atwood/tem/unitys/Dandelion/Dandelion.sln",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Material/Shader/Petal.shader",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Design/story",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Standard Assets/Effects/ImageEffects/Shaders/ShowAlphaChannel.shader",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Draw Call Minimizer/Scripts/NEW/Utility/ShaderProperties.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/Object/Wind.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/Camera/FollowCamera.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/Object/Flower.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/Object/Flower3D.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Plugins/FingerGestures/Scripts/Input Providers/FGInputProvider.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/FingerGestures Samples/2) Gestures/PinchAndTwist.unity",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Standard Assets/Effects/ImageEffects/Shaders/SepiaToneEffect.shader",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/Level/ArtTestLevelManager.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/Core/Manager/GestureManager.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/Object/FollowWind.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/Object/Petal3D.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/Object/Petal3DWind.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/Object/WindSensable.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/Object/Wind3D.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/3dmodel/petal2.blend",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/Core/Manager/Global.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/3dmodel/petal3.blend",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/CodeGenerators/Editor/GitignoreGenerator.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Standard Assets/Effects/Projectors/Guidelines.txt",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Plugins/Editor/FingerGestures/FingerGesturesEditorUtils.cs",
+		"/Users/atwood/tem/unitys/Dandelion/ProjectSettings/ClusterInputManager.asset",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/FingerGestures Samples/Assets/Animations/GestureAnimations.anim",
+		"/Users/atwood/tem/unitys/Dandelion/Dandelion.sublime-project",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Material/Shader/PetalShader.shader",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Material/SandSpriteOverlapNear.shader",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Material/SandSpriteOverlapMiddle.shader",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Material/SandSpriteOverlapFar.shader",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/FingerGestures Samples/3) Toolbox/Camera/Toolbox-Orbit.unity",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Material/Petal.mat",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader",
+		"/Users/atwood/tem/unitys/Dandelion/ProjectSettings/UnityAdsSettings.asset",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/Camera/CameraManager.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Material/Shader/CoverShader.shader",
+		"/Users/atwood/Documents/course/IMD/y2016spring/writting/w5",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Design/experimental goal",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/Camera/CameraControl.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Material/Cover.mat",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Editor/ImageEffects/CameraMotionBlurEditor.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/Core/Enum/EventDefine.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/Core/Manager/EventManager.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/Level/LevelManager.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Plugins/FingerGestures/PlayMaker Actions.unitypackage",
+		"/Users/atwood/tem/unitys/Dandelion/ProjectSettings/TagManager.asset",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/Level/TestManager.cs",
+		"/Users/atwood/tem/unitys/Dandelion/ProjectSettings/InputManager.asset",
+		"/Users/atwood/tem/unitys/Dandelion/ProjectSettings/AudioManager.asset",
+		"/Users/atwood/tem/unitys/Dandelion/ProjectSettings/TimeManager.asset",
+		"/Users/atwood/tem/unitys/Dandelion/ProjectSettings/NavMeshAreas.asset",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/FingerGestures Samples/Assets/Animations/MovingCube.anim",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Material/SandSpriteMiddle.mat",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Plugins/Editor/FingerGestures/FingerMotionDetectorInspector.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Material/SandSpriteFar.mat",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Standard Assets/Effects/ImageEffects/Shaders/frag_ao.cginc",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Material/SandSpriteNear.mat",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Editor/ImageEffects/NoiseAndGrainEditor.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseEffectShaderRGB.shader",
+		"/Users/atwood/tem/unitys/Dandelion/ProjectSettings/NetworkManager.asset",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Standard Assets/Effects/ImageEffects/Shaders/NoiseAndGrain.shader",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Material/Shader/SandSpriteOverlapNear.shader",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Plugins/Editor/FingerGestures/GestureRecognizerInspector.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/CodeGenerators/Editor/ConstantsWriter.cs",
+		"/Users/atwood/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/Level/Final.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/Level/AddSwipe.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/FingerGestures Samples/Sample Browser.unity",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/FingerGestures Samples/Assets/Scripts/SwipeParticlesEmitter.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Plugins/Editor/FingerGestures/SwipeRecognizerInspector.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assembly-CSharp.csproj",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Scene/test.unity",
+		"/Users/atwood/tem/unitys/Dandelion/Temp/UnityTempFile-e010dca86b3a348319036aa8412eb113",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/Object/PetalBasic.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/FingerGestures Samples/1) Finger Events/FingerEventsPart1.unity",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Plugins/FingerGestures/Scripts/Input Providers/FGMouseInputProvider.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/FingerGestures Samples/2) Gestures/Scripts/BasicGesturesSample.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/FingerGestures Samples/Assets/Scripts/BasicSample.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/FingerGestures Samples/2) Gestures/BasicGestures.unity",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Plugins/FingerGestures/Scripts/Gesture Recognizers/SwipeRecognizer.cs",
+		"/Users/atwood/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Plugins/FingerGestures/Scripts/FingerGestures.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/FingerGestures Samples/Assets/Scripts/SampleBase.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Script/CodeGenerators/Editor/SublimeProjectGenerator.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/FingerGestures Samples/Assets/Gesture Templates/Loop.asset",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/FingerGestures Samples/Assets/Prefabs/Gesture Renderer.prefab",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/FingerGestures Samples/2) Gestures/Scripts/PinchTwistSample.cs",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/FingerGestures Samples/Assets/Prefabs/SwipeParticlesEmitter.prefab",
+		"/Users/atwood/tem/unitys/Dandelion/ProjectSettings/Physics2DSettings.asset",
+		"/Users/atwood/tem/unitys/Dandelion/Assets/Resources/Flower/Flower.prefab",
+		"/Users/atwood/tem/unitys/Dandelion/ProjectSettings/GraphicsSettings.asset",
+		"/Users/atwood/tem/unitys/Dandelion/ProjectSettings/EditorSettings.asset",
+		"/Users/atwood/tem/unitys/miniRTS_/miniRTS/Assets/Script/UI/CreateProcessUnit.cs",
+		"/Users/atwood/tem/unitys/miniRTS_/miniRTS/Assets/Script/Object/Bullet/Bullet.cs",
+		"/Users/atwood/tem/unitys/miniRTS_/miniRTS/Assets/Script/Object/Tool/AutoDestory.cs",
+		"/Users/atwood/tem/unitys/miniRTS_/miniRTS/Assets/Script/Object/Equipment/Weapon/MagicBallGun.cs",
+		"/Users/atwood/tem/unitys/miniRTS_/miniRTS/Assets/Script/Object/Equipment/Weapon/BasicGun.cs",
+		"/Users/atwood/tem/unitys/miniRTS_/miniRTS/Assets/Script/Object/Equipment/Equipment.cs",
+		"/Users/atwood/tem/unitys/miniRTS_/miniRTS/Assets/Script/Object/System/Damage.cs",
+		"/Users/atwood/tem/unitys/miniRTS_/miniRTS/Assets/Script/Core/Manager/EventManager.cs",
+		"/Users/atwood/tem/unitys/miniRTS_/miniRTS/Assets/Script/Object/Equipment/Weapon/LaserGun.cs",
+		"/Users/atwood/tem/unitys/miniRTS_/miniRTS/Assets/TK2DROOT/tk2dUI_demo/ControlPrefabs/Layout/ScrollableArea_Horizontal.prefab",
+		"/Users/atwood/tem/unitys/miniRTS_/miniRTS/Assets/Script/Object/Bullet/BasicBullet.cs",
+		"/Users/atwood/tem/unitys/miniRTS_/miniRTS/Assets/Resources/Robot/Weapon/BasicGun.prefab",
+		"/Users/atwood/tem/unitys/miniRTS_/miniRTS/Assets/Script/UI/CreateProcessWindow.cs",
+		"/Users/atwood/tem/unitys/miniRTS_/miniRTS/Assets/Script/Core/Constant/Global.cs",
+		"/Users/atwood/tem/unitys/miniRTS_/miniRTS/Assets/Script/Core/Enum/Names.cs",
+		"/Users/atwood/tem/unitys/miniRTS_/miniRTS/Assets/Resources/Robot/Weapon/MagicBallGun.prefab",
+		"/Users/atwood/tem/unitys/miniRTS_/miniRTS/Assets/Resources/Robot/Bullet/MagicBall.prefab",
+		"/Users/atwood/tem/unitys/miniRTS_/miniRTS/Assets/Script/Object/Bullet/MagicBall.cs"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"yield",
+			"petalModel",
+			"update",
+			"tempWind",
+			"GenerateChaos",
+			"Dofade",
+			"grow",
+			"void Update",
+			"petalRoot",
+			"clamp",
+			"OnLand",
+			"stem",
+			"rotateRange",
+			"rigid",
+			"equipmentList",
+			"ComponentSelectType",
+			"MButton",
+			"robotInfos",
+			"RobotCreatInfo",
+			"RobotCreatInfo\\",
+			"r",
+			"y",
+			"n",
+			"]",
+			"[",
+			"]",
+			"[",
+			"]",
+			"[",
+			"]",
+			"robotHealth",
+			"upda",
+			"robotHealth",
+			"readXL",
+			"readXLS",
+			"recievedamage",
+			"Init",
+			"_agent",
+			"destination",
+			"destory",
+			"enemyList",
+			"getDataRowByType",
+			"GetCreateTime",
+			"destination",
+			"EventManager",
+			"region",
+			"DamageType",
+			"TurnAngleSpeed",
+			"new Damage",
+			"damage",
+			"isMeetEnemy",
+			");\n",
+			"1f",
+			"attack",
+			"system.se",
+			"system",
+			"color",
+			"webm",
+			"en-US",
+			"amiseen",
+			"vectorToTarget",
+			"sidewaysMoveSpeed",
+			"attackSpeed",
+			"walkingClockwise",
+			"myPosition",
+			"attackspeed",
+			"canMove",
+			"changedirection",
+			"get_spike",
+			"65",
+			"pstc",
+			"def connect",
+			"time",
+			"connect",
+			"delay",
+			"open-source",
+			"analyze_output",
+			"termination_thalamus",
+			"analyze_output",
+			"'output",
+			"block_rewards",
+			"termination_thalamus",
+			"random",
+			"trials_per_block",
+			"delay_dur",
+			"quit()",
+			"analyze_output",
+			"compareLogName",
+			"hrr",
+			"LogVocab",
+			"random.",
+			"random",
+			"ca.nengo.model.neuron.impl.LIF",
+			"spike",
+			"SA =",
+			"SA.",
+			"SA",
+			"tt.",
+			"ts.",
+			"random",
+			"driveparams_on",
+			"Connectw",
+			"StateClamp",
+			"tt",
+			"tool",
+			"/n",
+			"/r",
+			"keys",
+			".write",
+			"readlines",
+			"dict",
+			"pre",
+			"cval2rval",
+			"get_connection_value",
+			"dir_name",
+			"get_filename_spike(",
+			"get_log_name",
+			"get_log_name()",
+			"transform_log",
+			"simulator",
+			"get_file",
+			"simpleanalyze",
+			"prefix",
+			"__DICT__",
+			"FunctionInput",
+			"input",
+			"input_list",
+			"open"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"mov",
+			"previous",
+			"ma",
+			"pixel",
+			"if_win",
+			"tw5",
+			"MW2",
+			"MW1",
+			"TW1",
+			"MA3",
+			"MA2",
+			"MA1",
+			"FA3",
+			"FA2",
+			"FA1",
+			"T5",
+			"T4",
+			"T3",
+			"T2",
+			"DYQ"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Assets/Script/DrawMeterial.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3396,
+								3396
+							]
+						],
+						"settings":
+						{
+							"hasHeader": false,
+							"oops":
+							{
+								"1107,1114": "Use 'var' keyword",
+								"123,128": "The private field 'fluid' is never assigned",
+								"163,169": "The private field 'render' is never assigned",
+								"1826,1838": "Method never reaches its end or a 'return' statement.",
+								"199,206": "The private field 'baseTex' is never assigned",
+								"2967,2977": "Use 'var' keyword",
+								"3081,3088": "Use 'var' keyword",
+								"3152,3159": "Use 'var' keyword",
+								"343,354": "The private field 'imageCamera' is never assigned",
+								"3570,3571": "Type cast is redundant",
+								"3631,3632": "Type cast is redundant",
+								"381,392": "The private field 'smokeCamera' is never assigned",
+								"454,469": "Convert to constant",
+								"4816,4820": "Redundant 'else' keyword",
+								"508,524": "The private field 'alphaChangeCurve' is never assigned",
+								"550,565": "Convert to constant"
+							},
+							"syntax": "Packages/C#/C#.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 72.0,
+						"translation.y": 1610.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 112.0
+	},
+	"project": "Lady.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"petal.sha",
+				"Assets/Material/Shader/Petal.shader"
+			],
+			[
+				"wind3",
+				"Assets/Script/Object/Wind3D.cs"
+			],
+			[
+				"petal",
+				"Assets/Script/Object/Petal.cs"
+			],
+			[
+				"follw",
+				"Assets/Script/Object/FollowWind.cs"
+			],
+			[
+				"wind3d",
+				"Assets/Script/Object/Wind3D.cs"
+			],
+			[
+				"wind",
+				"Assets/Script/Object/Wind.cs"
+			],
+			[
+				"flow",
+				"Assets/Script/Object/Flower3D.cs"
+			],
+			[
+				"fps",
+				"Assets/Script/Core/Tool/FPS.cs"
+			],
+			[
+				"petal3d",
+				"Assets/Script/Object/Petal3D.cs"
+			],
+			[
+				"flower",
+				"Assets/Script/Object/Flower3D.cs"
+			],
+			[
+				"flowe",
+				"Assets/Script/Object/Flower.cs"
+			],
+			[
+				"petal3dw",
+				"Assets/Script/Object/Petal3DWind.cs"
+			],
+			[
+				"flower3d",
+				"Assets/Script/Object/Flower3D.cs"
+			],
+			[
+				"gl",
+				"Assets/Script/Core/Manager/Global.cs"
+			],
+			[
+				"gesturman",
+				"Assets/Script/Core/Manager/GestureManager.cs"
+			],
+			[
+				"flo3d",
+				"Assets/Script/Object/Flower3D.cs"
+			],
+			[
+				"flo",
+				"Assets/Script/Object/Flower.cs"
+			],
+			[
+				"winds",
+				"Assets/Script/Object/WindSensable.cs"
+			],
+			[
+				"over",
+				"Assets/Material/SandSpriteOverlapNear.shader"
+			],
+			[
+				"petal.sh",
+				"Assets/Material/Shader/Petal.shader"
+			],
+			[
+				"pasha",
+				"Assets/Material/Shader/PetalShader.shader"
+			],
+			[
+				"covers",
+				"Assets/Material/Shader/CoverShader.shader"
+			],
+			[
+				"near.sha",
+				"Assets/Material/SandSpriteOverlapNear.shader"
+			],
+			[
+				"foll",
+				"Assets/Script/Camera/FollowCamera.cs"
+			],
+			[
+				"cam",
+				"Assets/Script/Camera/CameraControl.cs"
+			],
+			[
+				"camcon",
+				"Assets/Script/Camera/CameraControl.cs"
+			],
+			[
+				"cama",
+				"Assets/Script/Camera/CameraManager.cs"
+			],
+			[
+				"evm",
+				"Assets/Script/Core/Manager/EventManager.cs"
+			],
+			[
+				"manager",
+				"Assets/Script/Level/LevelManager.cs"
+			],
+			[
+				"petaladv",
+				"Assets/Script/Object/PetalAdv.cs"
+			],
+			[
+				"evde",
+				"Assets/Script/Core/Enum/EventDefine.cs"
+			],
+			[
+				"ev",
+				"Assets/Script/Core/Manager/EventManager.cs"
+			],
+			[
+				"pe3d",
+				"Assets/Script/Object/Petal3D.cs"
+			],
+			[
+				"midd",
+				"Assets/Material/SandSpriteOverlapMiddle.shader"
+			],
+			[
+				"far.sha",
+				"Assets/Material/SandSpriteOverlapFar.shader"
+			],
+			[
+				"gestur",
+				"Assets/Script/Core/Manager/GestureManager.cs"
+			],
+			[
+				"glob",
+				"Assets/Script/Core/Manager/Global.cs"
+			],
+			[
+				"peta",
+				"Assets/Script/Object/Petal.cs"
+			],
+			[
+				"pe",
+				"Assets/Script/Object/Petal.cs"
+			],
+			[
+				"f",
+				"Assets/Script/Object/Flower3D.cs"
+			],
+			[
+				"gestm",
+				"Assets/Script/Core/Manager/GestureManager.cs"
+			],
+			[
+				"fina",
+				"Assets/Script/Level/Final.cs"
+			],
+			[
+				"adds",
+				"Assets/Script/Level/AddSwipe.cs"
+			],
+			[
+				"peadv",
+				"Assets/Script/Object/PetalAdv.cs"
+			],
+			[
+				"evd",
+				"Assets/Script/Core/Enum/EventDefine.cs"
+			],
+			[
+				"gesture",
+				"Assets/Script/Core/Manager/GestureManager.cs"
+			],
+			[
+				"testmaan",
+				"Assets/Script/Level/TestManager.cs"
+			],
+			[
+				"evman",
+				"Assets/Script/Core/Manager/EventManager.cs"
+			],
+			[
+				"final",
+				"Assets/Script/Level/Final.cs"
+			],
+			[
+				"camer",
+				"Assets/Script/Camera/CameraControl.cs"
+			],
+			[
+				"basic",
+				"Assets/Script/Object/PetalBasic.cs"
+			],
+			[
+				"petalba",
+				"Assets/Script/Object/PetalBasic.cs"
+			],
+			[
+				"pet",
+				"Assets/Script/Object/PetalAdv.cs"
+			],
+			[
+				"gen",
+				"Assets/Script/CodeGenerators/Editor/GitignoreGenerator.cs"
+			],
+			[
+				"gestu",
+				"Assets/Script/Core/Manager/GestureManager.cs"
+			],
+			[
+				"genera",
+				"Assets/Script/CodeGenerators/Editor/SublimeProjectGenerator.cs"
+			],
+			[
+				"evma",
+				"Assets/Script/Core/Manager/EventManager.cs"
+			],
+			[
+				"datamana",
+				"miniRTS/Assets/Script/Core/Manager/DataManager.cs"
+			],
+			[
+				"equi",
+				"miniRTS/Assets/Script/Object/Equipment/Equipment.cs"
+			],
+			[
+				"las",
+				"miniRTS/Assets/Script/Object/Equipment/Weapon/LaserGun.cs"
+			],
+			[
+				"basicgun",
+				"miniRTS/Assets/Script/Object/Equipment/Weapon/BasicGun.cs"
+			],
+			[
+				"magicballgun",
+				"miniRTS/Assets/Script/Object/Equipment/Weapon/MagicBallGun.cs"
+			],
+			[
+				"mag",
+				"miniRTS/Assets/Resources/Robot/Weapon/MagicBallGun.prefab"
+			],
+			[
+				"auto",
+				"miniRTS/Assets/Script/Object/Tool/AutoDestory.cs"
+			],
+			[
+				"bulle",
+				"miniRTS/Assets/Script/Object/Bullet/Bullet.cs"
+			],
+			[
+				"icegu",
+				"miniRTS/Assets/Script/Object/Equipment/Weapon/IceGun.cs"
+			],
+			[
+				"basgun",
+				"miniRTS/Assets/Script/Object/Equipment/Weapon/BasicGun.cs"
+			],
+			[
+				"names",
+				"miniRTS/Assets/Script/Core/Enum/Names.cs"
+			],
+			[
+				"evan",
+				"miniRTS/Assets/Script/Core/Manager/EventManager.cs"
+			],
+			[
+				"creapro",
+				"miniRTS/Assets/Script/UI/CreateProcessWindow.cs"
+			],
+			[
+				"robot",
+				"miniRTS/Assets/Script/Object/Robot/Robot.cs"
+			],
+			[
+				"createp",
+				"miniRTS/Assets/Script/UI/CreateProcessUnit.cs"
+			],
+			[
+				"createproce",
+				"miniRTS/Assets/Script/UI/CreateProcessFrame.cs"
+			],
+			[
+				"equiem",
+				"miniRTS/Assets/Script/Object/Equipment/Equipment.cs"
+			],
+			[
+				"logma",
+				"miniRTS/Assets/Script/Core/Manager/LogicManager.cs"
+			],
+			[
+				"windw",
+				"miniRTS/Assets/Script/UI/ObjCreateWindow.cs"
+			],
+			[
+				"rob",
+				"miniRTS/Assets/Script/Object/Robot/Robot.cs"
+			],
+			[
+				"logm",
+				"miniRTS/Assets/Script/Core/Manager/LogicManager.cs"
+			],
+			[
+				"globa",
+				"miniRTS/Assets/Script/Core/Constant/Global.cs"
+			],
+			[
+				"dataman",
+				"miniRTS/Assets/Script/Core/Manager/DataManager.cs"
+			],
+			[
+				"obj",
+				"miniRTS/Assets/Script/UI/ObjCreateWindow.cs"
+			],
+			[
+				"compo",
+				"miniRTS/Assets/Script/UI/ComponentSelector.cs"
+			],
+			[
+				"mlog",
+				"miniRTS/Assets/Script/Core/Manager/LogicManager.cs"
+			],
+			[
+				"ray",
+				"miniRTS/Assets/Script/UI/RayCaster.cs"
+			],
+			[
+				"m",
+				"miniRTS/Assets/Script/UI/MtkButton.cs"
+			],
+			[
+				"basbutton",
+				"miniRTS/Assets/Script/UI/MBasicButton.cs"
+			],
+			[
+				"mbu",
+				"miniRTS/Assets/Script/UI/MButton.cs"
+			],
+			[
+				"uim",
+				"miniRTS/Assets/Script/Core/Manager/UIManager.cs"
+			],
+			[
+				"logi",
+				"miniRTS/Assets/Script/Core/Manager/LogicManager.cs"
+			],
+			[
+				"crea",
+				"miniRTS/Assets/Script/Core/Manager/ObjectCreatManager.cs"
+			],
+			[
+				"armo",
+				"miniRTS/Assets/Script/Object/Equipment/Armor.cs"
+			],
+			[
+				"weap",
+				"miniRTS/Assets/Script/Object/Equipment/Weapon.cs"
+			],
+			[
+				"equim",
+				"miniRTS/Assets/Script/Object/Equipment/Equipment.cs"
+			],
+			[
+				"push",
+				"miniRTS/Assets/Script/Object/Equipment/Pusher.cs"
+			],
+			[
+				"armor",
+				"miniRTS/Assets/Script/Object/Equipment/Armor.cs"
+			],
+			[
+				"datama",
+				"miniRTS/Assets/Script/Core/Manager/DataManager.cs"
+			],
+			[
+				"arm",
+				"miniRTS/Assets/Script/Object/Equipment/Armor.cs"
+			],
+			[
+				"wea",
+				"miniRTS/Assets/Script/Object/Equipment/Weapon.cs"
+			],
+			[
+				"strat",
+				"miniRTS/Assets/Script/Object/Bullet/StraightLight.cs"
+			],
+			[
+				"bull",
+				"miniRTS/Assets/Script/Object/Bullet/Bullet.cs"
+			],
+			[
+				"name",
+				"miniRTS/Assets/Script/Core/Enum/Names.cs"
+			],
+			[
+				"robocreat",
+				"miniRTS/Assets/Script/Core/Manager/ObjectCreatManager.cs"
+			],
+			[
+				"datata",
+				"miniRTS/Assets/Script/Manager/DataTable.cs"
+			],
+			[
+				"data",
+				"miniRTS/Assets/Script/Manager/DataManager.cs"
+			],
+			[
+				"xml",
+				"miniRTS/Assets/Script/Manager/XMLHelper.cs"
+			],
+			[
+				"dam",
+				"miniRTS/Assets/Script/Manager/DataManager.cs"
+			],
+			[
+				"magbalg",
+				"miniRTS/Assets/Script/Object/Equipment/Weapon/MagicBallGun.cs"
+			],
+			[
+				"basicgu",
+				"miniRTS/Assets/Script/Object/Equipment/Weapon/BasicGun.cs"
+			],
+			[
+				"",
+				"miniRTS/Assets/Script/Object/System/Global.cs"
+			],
+			[
+				"log",
+				"miniRTS/Assets/Script/Manager/LogicManager.cs"
+			],
+			[
+				"magb",
+				"miniRTS/Assets/Script/Object/Equipment/Weapon/MagicBallGun.cs"
+			],
+			[
+				"magicba",
+				"miniRTS/Assets/Script/Object/Bullet/MagicBall.cs"
+			],
+			[
+				"magbu",
+				"miniRTS/Assets/Script/Object/Bullet/MagicBullet.cs"
+			],
+			[
+				"g",
+				"miniRTS/Assets/Script/Object/System/Global.cs"
+			],
+			[
+				"mabu",
+				"miniRTS/Assets/Script/Object/Bullet/MagicBullet.cs"
+			],
+			[
+				"magic",
+				"miniRTS/Assets/Resources/Robot/Weapon/MagicGun.prefab"
+			],
+			[
+				"eff",
+				"miniRTS/Assets/Script/Object/Effect/Effect.cs"
+			],
+			[
+				"iceeff",
+				"miniRTS/Assets/Script/Object/Effect/IceEffect.cs"
+			],
+			[
+				"basigun",
+				"miniRTS/Assets/Script/Object/Equipment/Weapon/BasicGun.cs"
+			],
+			[
+				"icegun",
+				"miniRTS/Assets/Script/Object/Equipment/Weapon/IceGun.cs"
+			],
+			[
+				"dama",
+				"miniRTS/Assets/Script/Object/System/Damage.cs"
+			],
+			[
+				"iceef",
+				"miniRTS/Assets/Script/Object/Effect/IceEffect.cs"
+			],
+			[
+				"damag",
+				"miniRTS/Assets/Script/Object/System/Damage.cs"
+			],
+			[
+				"bul",
+				"miniRTS/Assets/Script/Object/Bullet/Bullet.cs"
+			],
+			[
+				"basbu",
+				"miniRTS/Assets/Script/Object/Bullet/BasicBullet.cs"
+			],
+			[
+				"iceb",
+				"miniRTS/Assets/Script/Object/Bullet/IceBullet.cs"
+			],
+			[
+				"ice",
+				"miniRTS/Assets/Script/Object/Bullet/IceBullet.cs"
+			],
+			[
+				"robo",
+				"miniRTS/Assets/Script/Object/Robot/Robot.cs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"take",
+				"TAKEN"
+			],
+			[
+				"cbp",
+				"CBP_TRACE_RECORD"
+			],
+			[
+				"sa",
+				"SatDecrement"
+			],
+			[
+				"from",
+				"getTransformMat"
+			],
+			[
+				"gett",
+				"getTransformMat"
+			],
+			[
+				"dir",
+				"direct_hist"
+			],
+			[
+				"genb",
+				"gen_block"
+			],
+			[
+				"sift",
+				"sift"
+			],
+			[
+				"c",
+				"check_in"
+			],
+			[
+				"",
+				"check_in"
+			],
+			[
+				"ch",
+				"check_in"
+			],
+			[
+				"chei",
+				"check_in"
+			]
+		],
+		"width": 395.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 268.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
