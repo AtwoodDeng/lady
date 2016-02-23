@@ -53,7 +53,7 @@ public class MyMouseFluid : MonoBehaviour {
 		
 		//if (Input.GetMouseButtonDown(1))
 		{
-			m_previousMousePosition = Input.mousePosition;
+//			m_previousMousePosition = Input.mousePosition;
 		}
 		
 		//if (Input.GetMouseButton(1) || m_alwaysOn)
@@ -62,7 +62,7 @@ public class MyMouseFluid : MonoBehaviour {
 			RaycastHit hitInfo = new RaycastHit();
 			if (m_fluid.GetComponent<Collider>().Raycast(ray, out hitInfo, 100))
 			{
-				Vector3 direction = (Input.mousePosition - m_previousMousePosition + Vector3.up * 10f) * m_velocityStrength * Time.deltaTime;
+				Vector3 direction = (Input.mousePosition - m_previousMousePosition ) * m_velocityStrength * Time.deltaTime;
 				float fWidth = m_fluid.GetComponent<Renderer>().bounds.extents.x * 2f;
 				float fRadius = (m_velocityRadius * m_fluid.GetWidth()) / fWidth;
 				m_fluid.AddVelocity(hitInfo.textureCoord, direction, fRadius);

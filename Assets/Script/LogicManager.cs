@@ -30,11 +30,12 @@ public class LogicManager : MonoBehaviour {
 	void ShowText(Message msg)
 	{
 		GameObject text = Instantiate(textPrefab) as GameObject;
-		text.transform.localPosition = new Vector3(Random.Range(-textCreatePosition.x, textCreatePosition.x)
-			,Random.Range(-textCreatePosition.y, textCreatePosition.y),0);
+//		text.transform.localPosition = new Vector3(Random.Range(-textCreatePosition.x, textCreatePosition.x)
+//			,Random.Range(-textCreatePosition.y, textCreatePosition.y),0);
 		TextMesh mesh = text.GetComponent<TextMesh>();
 		mesh.text = (string)msg.GetMessage("word");
 		mesh.color = (Color)msg.GetMessage("color");
+		mesh.transform.position = (Vector3)msg.GetMessage ("pos");
 
 		StartCoroutine(textAnimation(mesh));
 
@@ -44,9 +45,7 @@ public class LogicManager : MonoBehaviour {
 	{
 		float timer = 0;
 		float duration = mesh.text.Length * showTimePreWord;
-		Vector3 moveDirection = Random.rotation.eulerAngles;
-		moveDirection.z = 0 ;
-		moveDirection.Normalize();
+		Vector3 moveDirection = new Vector3 (Random.Range (-1f, 1f), 0, 0);
 
 		while(true)
 		{
@@ -59,7 +58,7 @@ public class LogicManager : MonoBehaviour {
 			else if ( timer < fadeTime * 2 + duration)
 				col.a = 1f - (timer - fadeTime - duration) / fadeTime;
 			else 
-				yield break;
+				break;
 
 			mesh.color = col;
 

@@ -5,6 +5,7 @@ using System.Collections;
 public class FluidFollower : MonoBehaviour {
 	public FluidSimulator m_fluid;
 	public ParticlesArea m_particleArea;
+	public float followRate=1f;
 
     void Start()
     {
@@ -28,7 +29,7 @@ public class FluidFollower : MonoBehaviour {
 				Vector2 velInSimSpace = m_fluid.GetVelocity((int)posInSimSpace.x, (int)posInSimSpace.y) * Time.deltaTime;
                 Vector2 worldSize = m_particleArea.GetRenderSize();
 				Vector2 velInWorldSpace = new Vector2((velInSimSpace.x * worldSize.x) / simSize.x, (velInSimSpace.y * worldSize.y) / simSize.y);
-				gameObject.transform.position = gameObject.transform.position + new Vector3(velInWorldSpace.x, velInWorldSpace.y, 0f);
+				gameObject.transform.position = gameObject.transform.position + new Vector3(velInWorldSpace.x, velInWorldSpace.y, 0f) * followRate;
 			}
 		}
 	}

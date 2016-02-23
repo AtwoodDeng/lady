@@ -20,6 +20,7 @@ public class Controller : MonoBehaviour {
 
 
 	[SerializeField] bool isUseAnimation = false;
+	[SerializeField] bool[] isAutoPrint;
 
 	int index;
 	DrawMeterial draw;
@@ -38,6 +39,8 @@ public class Controller : MonoBehaviour {
 		if (draw != null )
 			draw.enabled = false;
 		sprite = GetComponent<SpriteRenderer>();
+		if (sprite != null)
+			sprite.color = oriColor;
 
 		oriPos = transform.position;
 		oriScale = transform.localScale;
@@ -48,6 +51,8 @@ public class Controller : MonoBehaviour {
 	float checkTime = 0 ;
 	// Update is called once per frame
 	void Update () {
+		if (index >= startTime.Length)
+			return;
 		if ( Time.time - LogicManager.startTime - startTime[index] > 0 && !isOn)
 		{
 			Begin();
@@ -66,13 +71,18 @@ public class Controller : MonoBehaviour {
 				checkTime = Time.time + checkInterval;
 				if ( draw.checkDraw() )
 				{
-					isShowed[index] = true;
-					for(int i = 0 ; i <= index ; ++ i )
-						ShowText(i);
-					ShowSprite();
+					Show();
 				}
 			}
 		}
+	}
+
+	void Show()
+	{
+		isShowed[index] = true;
+		for(int i = 0 ; i <= index ; ++ i )
+			ShowText(i);
+		ShowSprite();
 	}
 
 	void ShowSprite()
@@ -91,6 +101,7 @@ public class Controller : MonoBehaviour {
 
 		msg.AddMessage("word", text[i]);
 		msg.AddMessage("color" , color[i]);
+		msg.AddMessage ("pos", transform.position + i * Vector3.down * 0.6f);
 
 		EventManager.Instance.PostEvent(EventDefine.showText, msg, this);
 
@@ -99,6 +110,7 @@ public class Controller : MonoBehaviour {
 	void Begin()
 	{
 		isOn = true;
+		if (draw != null)
 		draw.enabled = true;
 		float time = endTime[index]-startTime[index];
 
@@ -115,9 +127,22 @@ public class Controller : MonoBehaviour {
 
 		if (isUseAnimation)
 		{
-			transform.DOMove(floatVelocity*time, time);
+//			transform.DOMove(floatVelocity*time, time);
 			transform.DORotate(new Vector3(0,0,spinVelocity*time), time , RotateMode.LocalAxisAdd);
 			transform.DOScale(Mathf.Pow(scaleChange, time), time);
+		}
+
+		if (isAutoPrint[index]) {
+			Show();
+		}
+
+		VelocityManipulator[] vm = GetComponentsInChildren<VelocityManipulator> ();
+		foreach (VelocityManipulator v in vm) {
+			v.enabled = true;
+		}
+		ParticlesAreaManipulator[] pam = GetComponentsInChildren<ParticlesAreaManipulator> ();
+		foreach (ParticlesAreaManipulator v in pam) {
+			v.enabled = true;
 		}
 	}
 
@@ -128,13 +153,22 @@ public class Controller : MonoBehaviour {
 		if (sprite != null)
 			sprite.DOFade(0, 2f).OnComplete(DisableDraw);
 
-
+		VelocityManipulator[] vm = GetComponentsInChildren<VelocityManipulator> ();
+		foreach (VelocityManipulator v in vm) {
+			v.enabled = false;
+		}
+		ParticlesAreaManipulator[] pam = GetComponentsInChildren<ParticlesAreaManipulator> ();
+		foreach (ParticlesAreaManipulator v in pam) {
+			v.enabled = false;
+		}
 
 	}
 
 	void DisableDraw()
 	{
-		draw.enabled = false;
-		draw.Reset();
+		if (draw != null) {
+			draw.enabled = false;
+			draw.Reset ();
+		}
 	}
 }

@@ -35,12 +35,13 @@ public class DrawMeterial : MonoBehaviour {
 			for ( int j = 0 ; j < newTex.height; ++ j )
 		{
 			colors[i*baseTex.height+j] = baseColor[i*baseTex.height+j];
-			colors[i*baseTex.height+j].a = 0.005f;
+			colors[i*baseTex.height+j].a = 0.002f;
 		}
 		newTex.SetPixels (colors);
 		newTex.Apply();
 		Vector2 size = new Vector2(newTex.width,newTex.height);
 		render.sprite = Sprite.Create(newTex, new Rect(initPos,size) , new Vector2(0.5f, 0.5f));
+
 
 		//set up screen size
 		imageCamera.orthographicSize =  (float)Screen.height / 100f / 2f;
